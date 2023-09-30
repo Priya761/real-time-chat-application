@@ -1,0 +1,17 @@
+{
+  "name": "websocket-node-server",
+  "version": "1.0.0",
+  "description": "This is a live chat application build using Node JS and Web socket io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js"
+  },
+  "author": "Priya Jha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "socket.io": "^4.7.2"
+  }
+}

@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Styling the container and form-container */
+.message-container{
+    max-width: 50%;
+    margin: auto;
+    height: 70vh;
+    margin-top: 4rem;
+    border: 1px solid black;
+    overflow-y: auto;
+}
+
+.form-container{
+    /* position: relative; */
+    max-width: 50%;
+    margin: auto;
+    width: 83%;
+    height: 2rem;
+    /* margin-top: 2px; */
+}
+
+/* form{
+    position: relative;
+    top: 100%;
+} */
+
+#message{
+    width: 84%;
+    height: 2.5rem;
+}
+
+.btn{
+    width: 15%;
+    height: 2.5rem;
+    cursor: pointer;
+}
+
+/* Styling the message box */
+.message{
+    border: 1px solid black;
+    /* background-color: grey; */
+    background-color: aquamarine;
+    width: 24%;
+    padding: 7px;
+    margin: 20px 20px;
+    border-radius: 10px;
+}
+.left{
+    float: left;
+    clear: both;
+    /* display: flex;
+    justify-content: flex-end; */
+    /* align-items: end;
+    justify-content: end; */
+}
+.right{
+    float: right;
+    clear: both;
+}
+.center{
+    margin: auto;
+    clear: both;
+}
